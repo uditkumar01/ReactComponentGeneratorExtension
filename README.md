@@ -22,6 +22,7 @@ A cool VSCode extension which lets you create your component's files/folders ins
 -   You can clean your create react app initial template using -clean command easily.
 -   Now the imports exports in index file will be properly formatted ok_hand.
 -   Automatically detects file type ( like `TypeScript` / `JavaScript` ) while making components.
+-   Automatically removes all characters other than alphanum and capitalizes the char next to it.
 
 ---
 
