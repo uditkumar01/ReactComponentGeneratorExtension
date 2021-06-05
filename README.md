@@ -11,7 +11,7 @@ A cool VSCode extension which lets you create your component's files/folders ins
 -   Then if you wish to clean your initial react app template choose `Clean Template`.
 -   Then choose component file type to create new react component template.
 
-### Features 0.0.1
+### Features 1.0.0
 
 -   You can create components with just a single command.
 -   GUI interface is also supported for ease of use.

@@ -3,12 +3,32 @@
     "displayName": "React Component Generator",
     "publisher": "uditkumar01",
     "icon": "logo/logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/uditkumar01/ReactComponentGeneratorExtension.git"
+    },
+    "author": "Udit Kumar",
+    "keywords": [
+        "component creator",
+        "react component",
+        "react component generator",
+        "react",
+        "javascript",
+        "reactjs",
+        "vscode",
+        "vscode-extension",
+        "reactcomponents"
+    ],
     "description": "A Cool VSCode extension which lets you create your component's files/folders instantly with boilerplate code. Also automatically handles css file import if needed and exports the component from the index file of Component directory. ",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.56.0"
     },
     "categories": [
+        "Snippets",
+        "Programming Languages",
+        "Education",
+        "Formatters",
         "Other"
     ],
     "activationEvents": [
