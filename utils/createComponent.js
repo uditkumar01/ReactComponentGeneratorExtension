@@ -69,62 +69,62 @@ test('test message', () => {
 
     if (userCommandSelection.description === "* with only css file") {
 
-        writeThisText(pathPkg.join(path, "src", "Components", componentName, `${componentName}.${ext}x`), componentJSXFileTextWithCSS);
+        writeThisText(pathPkg.join(path, "src", "components", componentName, `${componentName}.${ext}x`), componentJSXFileTextWithCSS);
 
-        writeThisText(pathPkg.join(path, "src", "Components", componentName, `${componentName}.css`), textOfCSSFile);
+        writeThisText(pathPkg.join(path, "src", "components", componentName, `${componentName}.css`), textOfCSSFile);
 
 
     } else if (userCommandSelection.description === "* with only test file") {
 
-        writeThisText(pathPkg.join(path, "src", "Components", componentName, `${componentName}.${ext}x`), componentJSXFileTextWithOutCSS);
+        writeThisText(pathPkg.join(path, "src", "components", componentName, `${componentName}.${ext}x`), componentJSXFileTextWithOutCSS);
 
-        writeThisText(pathPkg.join(path, "src", "Components", componentName, `${componentName}.test.${ext}x`), textOfTestFile);
+        writeThisText(pathPkg.join(path, "src", "components", componentName, `${componentName}.test.${ext}x`), textOfTestFile);
 
 
     } else if (userCommandSelection.description === "* with css and test files") {
 
-        writeThisText(pathPkg.join(path, "src", "Components", componentName, `${componentName}.${ext}x`), componentJSXFileTextWithCSS);
+        writeThisText(pathPkg.join(path, "src", "components", componentName, `${componentName}.${ext}x`), componentJSXFileTextWithCSS);
 
-        writeThisText(pathPkg.join(path, "src", "Components", componentName, `${componentName}.css`), textOfCSSFile);
+        writeThisText(pathPkg.join(path, "src", "components", componentName, `${componentName}.css`), textOfCSSFile);
 
-        writeThisText(pathPkg.join(path, "src", "Components", componentName, `${componentName}.test.${ext}x`), textOfTestFile);
+        writeThisText(pathPkg.join(path, "src", "components", componentName, `${componentName}.test.${ext}x`), textOfTestFile);
 
     } else {
 
-        writeThisText(pathPkg.join(path, "src", "Components", componentName, `${componentName}.${ext}x`), componentJSXFileTextWithOutCSS);
+        writeThisText(pathPkg.join(path, "src", "components", componentName, `${componentName}.${ext}x`), componentJSXFileTextWithOutCSS);
 
     }
 
-    if (!checkIfFileExists(pathPkg.join(path, "src", "Components", `index.${ext}`))) {
+    if (!checkIfFileExists(pathPkg.join(path, "src", "components", `index.${ext}`))) {
 
-        fs.writeFile(pathPkg.join(path, "src", "Components", `index.${ext}`), ``, err => {
+        fs.writeFile(pathPkg.join(path, "src", "components", `index.${ext}`), ``, err => {
             if (err) {
                 console.log(`Failed to create file: ${err}`);
             }
             else {
-                fs.readFile(pathPkg.join(path, "src", "Components", `index.${ext}`), 'utf8', (err, data) => {
+                fs.readFile(pathPkg.join(path, "src", "components", `index.${ext}`), 'utf8', (err, data) => {
                     if (err) {
                         console.error(err)
                     }
                     else {
                         let updatedData = data + `export { ${componentName} } from "./${componentName}/${componentName}";\n`;
 
-            
-                        writeThisText(pathPkg.join(path, "src", "Components", `index.${ext}`), formatExports(updatedData));
+
+                        writeThisText(pathPkg.join(path, "src", "components", `index.${ext}`), formatExports(updatedData));
                     }
                 });
             }
         });
     } else {
-        fs.readFile(pathPkg.join(path, "src", "Components", `index.${ext}`), 'utf8', (err, data) => {
+        fs.readFile(pathPkg.join(path, "src", "components", `index.${ext}`), 'utf8', (err, data) => {
             if (err) {
                 console.error(err)
             }
             else {
                 let updatedData = data + `export { ${componentName} } from "./${componentName}/${componentName}";\n`;
 
-    
-                writeThisText(pathPkg.join(path, "src", "Components", `index.${ext}`), formatExports(updatedData));
+
+                writeThisText(pathPkg.join(path, "src", "components", `index.${ext}`), formatExports(updatedData));
             }
         });
     }
@@ -140,17 +140,17 @@ function createComponent(userCommandSelection, path, extension = "JavaScript") {
     try {
         if (checkIfFileExists(pathPkg.join(path, "src"))) {
 
-            // creating Components folder if is doesn't exists
-            if (!checkIfFileExists(pathPkg.join(path,"src","Components"))) {
+            // creating components folder if is doesn't exists
+            if (!checkIfFileExists(pathPkg.join(path, "src", "components"))) {
                 console.log("callback out");
-                fs.mkdir(pathPkg.join(path, `src`, 'Components'), (err) => {
+                fs.mkdir(pathPkg.join(path, `src`, 'components'), (err) => {
                     if (err) {
                         return console.log(err);
                     } else {
-                        // after Components if created creating the component Folder
-                        if (!checkIfFileExists(pathPkg.join(path, "src", "Components", componentName))) {
+                        // after components if created creating the component Folder
+                        if (!checkIfFileExists(pathPkg.join(path, "src", "components", componentName))) {
 
-                            fs.mkdir(pathPkg.join(path, "src", "Components", componentName), (err) => {
+                            fs.mkdir(pathPkg.join(path, "src", "components", componentName), (err) => {
                                 if (err) {
                                     return console.log(err, "error while creating folder");
                                 } else {
@@ -165,9 +165,9 @@ function createComponent(userCommandSelection, path, extension = "JavaScript") {
             } else {
 
                 // creating the component Folder
-                if (!checkIfFileExists(pathPkg.join(path, "src", "Components", componentName))) {
+                if (!checkIfFileExists(pathPkg.join(path, "src", "components", componentName))) {
 
-                    fs.mkdir(pathPkg.join(path, "src", "Components", componentName), (err) => {
+                    fs.mkdir(pathPkg.join(path, "src", "components", componentName), (err) => {
                         if (err) {
                             return console.log(err, "error while creating folder");
                         } else {

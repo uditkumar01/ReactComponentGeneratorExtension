@@ -72,7 +72,7 @@ function cleanTemplate(path, ext) {
         const updatedData = data.split("\n").map(line => {
             return !line.includes("import App from") ?
                 line :
-                `import { App } from "./Components/index";`;
+                `import { App } from "./components/index";`;
         }).join("\n");
 
         writeThisText(pathPkg.join(path, `src`, `index.${srcIndexFileExt}`), updatedData);

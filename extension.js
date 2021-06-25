@@ -24,9 +24,9 @@ function activate(context) {
 
 			path = path.uri.fsPath;
 			// path = `${process.cwd()}/idhertest`;
-			
+
 			// console.log(path, "my path");
-			
+
 			let fileTypeOption = [
 				{
 					label: "*",
@@ -92,9 +92,21 @@ function activate(context) {
 				}
 			);
 
-			if(scriptSelection.label.toLowerCase() === "clean template"){
-				cleanTemplate(path, initialExt);
-				vscode.window.showInformationMessage(`Hi! your template is clean now!!!`);
+			if (scriptSelection.label.toLowerCase() === "clean template") {
+
+				const userResponseForCleaning = await vscode.window
+					.showInformationMessage(
+						"Do you want to do this?",
+						...["Yes", "No"]
+					);
+				if (userResponseForCleaning === "Yes") {
+					// Run clean function
+					cleanTemplate(path, initialExt);
+					vscode.window.showInformationMessage(`Hi! your template is clean now!!!`);
+				} else {
+					vscode.window.showWarningMessage(`Aborted template cleaning Command!!!`);
+				}
+
 				return;
 			}
 
