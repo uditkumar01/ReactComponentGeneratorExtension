@@ -27,3 +27,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
     - Added support for keybindings `shift+space`.
     - Removed `Clean Template` method.
     - Detects if current project is using `react` or not.
+
+## [1.1.1] - 2022-08-31
+
+    - Fixed the issue for resetting the settings (which were set initially).
+
+## [1.1.2] - 2022-09-01
+   
+    - Fixed the gif loading issue.

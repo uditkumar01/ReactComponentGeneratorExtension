@@ -1,6 +1,6 @@
 <div align="center">
     <img src="https://raw.githubusercontent.com/uditkumar01/ReactComponentGeneratorExtension/main/logo/logo.png" alt="logo" width="150" />
-    <h1>React Component Generator <kbd>v1.0.1</kbd></h1>
+    <h1>React Component Generator <kbd>v1.1.2</kbd></h1>
 </div>
 
 <div align="center">
@@ -51,7 +51,7 @@ A cool VSCode extension that lets you create your component's files/folders inst
 
 ## Demo Gif
 
-![demo_gif](assets/demo.gif)
+![demo_gif](https://raw.githubusercontent.com/uditkumar01/ReactComponentGeneratorExtension/main/assets/demo.gif)
 
 
 <h3 align="center">⭐ Star this project on <a href="https://github.com/uditkumar01/ReactComponentGeneratorExtension">GitHub</a></h3>
