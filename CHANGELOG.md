@@ -21,7 +21,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
     - Detects file type ( like `TypeScript` / `JavaScript` ) while making components.
     - Removes all characters other than alphanum and capitalizes the char next to it.
 
-## [1.0.1] - 2022-08-31
+## [1.1.0] - 2022-08-31
 
     - Added component create command in `explorer context menu`.
     - Added support for keybindings `shift+space`.
