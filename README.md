@@ -3,6 +3,21 @@
     <h1>React Component Generator <kbd>v1.0.1</kbd></h1>
 </div>
 
+<div align="center">
+ <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="ts badge" />
+ <img src="https://img.shields.io/badge/VSCODE%20Extension%20API-5C2D91.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="nextjs badge" />
+ <br />
+ <img src="https://img.shields.io/github/repo-size/uditkumar01/ReactComponentGeneratorExtension?style=for-the-badge&color=blueviolet" alt="repo size badge" />
+ <img src="https://img.shields.io/github/stars/uditkumar01/ReactComponentGeneratorExtension?style=for-the-badge&color=silver" alt="build status badge" />
+ <img src="https://img.shields.io/github/forks/uditkumar01/ReactComponentGeneratorExtension?style=for-the-badge" alt="no of forks badge" />
+ <img alt="View Count" src="https://hits.sh/github.com/uditkumar01/ReactComponentGeneratorExtension.svg?style=for-the-badge"/>
+ <!-- <img alt="Hits" src="https://hits.sh/github-cool-covers.vercel.app.svg?style=for-the-badge&color=0fa5c3&labelColor=48484e&label=Website+Hits"/> -->
+ </div>
+
+ <br />
+ <br />
+
+
 A cool VSCode extension that lets you create your component's files/folders instantly with boilerplate code. Also automatically handles CSS file import if needed and exports the component from the index file of the Component directory.
 
 ### How to install?
@@ -34,7 +49,11 @@ A cool VSCode extension that lets you create your component's files/folders inst
 
 * [Visual Studio Marketplace Link](https://marketplace.visualstudio.com/items?itemName=uditkumar01.react-component-generator)
 
-https://user-images.githubusercontent.com/55291327/120786593-052db500-c54c-11eb-8d9e-e54fd48c7ffc.mp4
+## Demo Gif
 
-**Enjoy!**
+![demo_gif](assets/demo.gif)
 
+
+<h3 align="center">⭐ Star this project on <a href="https://github.com/uditkumar01/ReactComponentGeneratorExtension">GitHub</a></h3>
+
+<p align="center">Made with ❣️ and JavaScript.</p>
