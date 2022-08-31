@@ -10,7 +10,7 @@
  <img src="https://img.shields.io/github/repo-size/uditkumar01/ReactComponentGeneratorExtension?style=for-the-badge&color=blueviolet" alt="repo size badge" />
  <img src="https://img.shields.io/github/stars/uditkumar01/ReactComponentGeneratorExtension?style=for-the-badge&color=silver" alt="build status badge" />
  <img src="https://img.shields.io/github/forks/uditkumar01/ReactComponentGeneratorExtension?style=for-the-badge" alt="no of forks badge" />
- <img alt="View Count" src="https://hits.sh/github.com/uditkumar01/ReactComponentGeneratorExtension.svg?style=for-the-badge"/>
+ <img alt="View Count" src="https://shields-io-visitor-counter.herokuapp.com/badge?page=uditkumar01/ReactComponentGeneratorExtension&style=for-the-badge&label=Hits" />
  <!-- <img alt="Hits" src="https://hits.sh/github-cool-covers.vercel.app.svg?style=for-the-badge&color=0fa5c3&labelColor=48484e&label=Website+Hits"/> -->
  </div>
 
