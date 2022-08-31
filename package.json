@@ -1,0 +1,88 @@
+{
+  "name": "react-component-generator",
+  "displayName": "React Component Generator",
+  "icon": "assets/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uditkumar01/ReactComponentGeneratorExtension.git"
+  },
+  "author": "Udit Kumar",
+  "publisher": "uditkumar01",
+  "keywords": [
+    "component creator",
+    "react component",
+    "react component generator",
+    "react",
+    "javascript",
+    "reactjs",
+    "reactcomponents"
+  ],
+  "description": "A Cool VSCode extension which lets you create your component's files/folders instantly with boilerplate code.",
+  "version": "1.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Snippets",
+    "Programming Languages",
+    "Education",
+    "Formatters",
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:react-component-generator.helloWorld"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "react-component-generator.helloWorld",
+        "title": "React Component Generator",
+        "icon": "./logo/logo.png",
+        "shortTitle": "RCG",
+        "category": "React"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "react-component-generator.helloWorld",
+        "key": "shift+space",
+        "mac": "shift+space",
+        "when": "true"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "react-component-generator.helloWorld",
+          "group": "navigation",
+          "when": "explorerResourceIsFolder && resourcePath =~ /components?$/"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.70.0",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "@vscode/test-electron": "^2.1.5",
+    "eslint": "^8.20.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "readdirp": "^3.6.0"
+  }
+}
