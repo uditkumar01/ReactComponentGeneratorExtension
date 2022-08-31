@@ -30,7 +30,8 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:react-component-generator.helloWorld"
+    "onCommand:react-component-generator.helloWorld",
+    "onCommand:react-component-generator.resetRCGSettings"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -38,16 +39,19 @@
       {
         "command": "react-component-generator.helloWorld",
         "title": "React Component Generator",
-        "icon": "./logo/logo.png",
         "shortTitle": "RCG",
+        "category": "React"
+      },
+      {
+        "command": "react-component-generator.resetRCGSettings",
+        "title": "Reset RCG Settings",
+        "shortTitle": "RS",
         "category": "React"
       }
     ],
     "keybindings": [
       {
         "command": "react-component-generator.helloWorld",
-        "key": "shift+space",
-        "mac": "shift+space",
         "when": "true"
       }
     ],
