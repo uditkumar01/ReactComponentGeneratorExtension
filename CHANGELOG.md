@@ -35,3 +35,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.1.2] - 2022-09-01
    
     - Fixed the gif loading issue.
+
+## [1.1.3] - 2022-09-01
+   
+    - Fixed the logo issue.

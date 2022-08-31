@@ -1,13 +1,15 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/uditkumar01/ReactComponentGeneratorExtension/main/logo/logo.png" alt="logo" width="150" />
-    <h1>React Component Generator <kbd>v1.1.2</kbd></h1>
+    <img src="https://raw.githubusercontent.com/uditkumar01/ReactComponentGeneratorExtension/main/assets/logo.png" alt="logo" width="150" />
+    <h1>React Component Generator <kbd>v1.1.3</kbd></h1>
 </div>
+
+<br />
 
 <div align="center">
  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="ts badge" />
  <img src="https://img.shields.io/badge/VSCODE%20Extension%20API-5C2D91.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="nextjs badge" />
  <br />
- <img src="https://img.shields.io/github/repo-size/uditkumar01/ReactComponentGeneratorExtension?style=for-the-badge&color=blueviolet" alt="repo size badge" />
+ <!-- <img src="https://img.shields.io/github/repo-size/uditkumar01/ReactComponentGeneratorExtension?style=for-the-badge&color=blueviolet" alt="repo size badge" /> -->
  <img src="https://img.shields.io/github/stars/uditkumar01/ReactComponentGeneratorExtension?style=for-the-badge&color=silver" alt="build status badge" />
  <img src="https://img.shields.io/github/forks/uditkumar01/ReactComponentGeneratorExtension?style=for-the-badge" alt="no of forks badge" />
  <img alt="View Count" src="https://shields-io-visitor-counter.herokuapp.com/badge?page=uditkumar01/ReactComponentGeneratorExtension&style=for-the-badge&label=Hits" />
