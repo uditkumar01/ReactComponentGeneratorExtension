@@ -16,8 +16,9 @@
   <img alt="Download Count" src="https://img.shields.io/visual-studio-marketplace/d/uditkumar01.react-component-generator?style=for-the-badge&color=gold" />
   <img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/uditkumar01.react-component-generator?style=for-the-badge" />
   <br />
+  <img alt="version" src="https://img.shields.io/visual-studio-marketplace/v/uditkumar01.react-component-generator?style=for-the-badge" />
    <img alt="last updated date" src="https://img.shields.io/visual-studio-marketplace/last-updated/uditkumar01.react-component-generator?style=for-the-badge" />
-   <img alt="release date" src="https://img.shields.io/visual-studio-marketplace/release-date/uditkumar01.react-component-generator?style=for-the-badge" />
+   
  <!-- <img alt="Hits" src="https://hits.sh/github-cool-covers.vercel.app.svg?style=for-the-badge&color=0fa5c3&labelColor=48484e&label=Website+Hits"/> -->
  </div>
 
