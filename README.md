@@ -14,7 +14,10 @@
  <img src="https://img.shields.io/github/forks/uditkumar01/ReactComponentGeneratorExtension?style=for-the-badge" alt="no of forks badge" />
  <!-- <img alt="View Count" src="https://shields-io-visitor-counter.herokuapp.com/badge?page=uditkumar01/ReactComponentGeneratorExtension&style=for-the-badge&label=Hits" /> -->
   <img alt="Download Count" src="https://img.shields.io/visual-studio-marketplace/d/uditkumar01.react-component-generator?style=for-the-badge&color=gold" />
- 
+  <img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/uditkumar01.react-component-generator?style=for-the-badge" />
+  <br />
+   <img alt="last updated date" src="https://img.shields.io/visual-studio-marketplace/last-updated/uditkumar01.react-component-generator?style=for-the-badge" />
+   <img alt="release date" src="https://img.shields.io/visual-studio-marketplace/release-date/uditkumar01.react-component-generator?style=for-the-badge" />
  <!-- <img alt="Hits" src="https://hits.sh/github-cool-covers.vercel.app.svg?style=for-the-badge&color=0fa5c3&labelColor=48484e&label=Website+Hits"/> -->
  </div>
 
